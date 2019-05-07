@@ -3,6 +3,7 @@ import systemHost from '../assets/images/system-host.png';
 import schoolHost from '../assets/images/school-host.png';
 import hotelHost from '../assets/images/hotel.png';
 import school from '../assets/images/school.png';
+import config from '../config'
 
 const icons = {
 	S: school,
@@ -12,7 +13,7 @@ const icons = {
 };
 
 const geocodeUrl = 'https://maps.googleapis.com/maps/api/geocode/json';
-const apiKey = 'AIzaSyA0p0GnaPDtJQfu7Fy9FETmzTlQJrTdd_0';
+const apiKey = config.apiKey;
 
 class Mapa {
 	filters = ['HFN', 'HF', 'HHN'];
