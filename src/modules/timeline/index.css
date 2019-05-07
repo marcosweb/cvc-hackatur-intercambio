@@ -1,0 +1,85 @@
+@import "../../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+
+.timeline {
+	padding: 0;
+    height: 493px;
+    overflow-y: scroll;
+    border-top: solid 1px #716565;
+    background-color: white;
+    border-bottom: solid 1px #716565;
+}
+
+.timeline-price {
+	border-bottom: solid 1px #ddd;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	text-align: right;
+}
+
+.timeline .timeline-item {
+	display: flex;
+	list-style: none;
+	padding: 0;
+}
+
+.timeline .timeline-date {
+	align-items: center;
+	border-right: solid 1px #555;
+	display: flex;
+	font-size: 12px;
+	font-family: "Roboto", "Helvetica";
+	justify-content: flex-end;
+	margin-right: 20px;
+	text-align: right;
+	width: 75px;
+}
+
+.timeline .timeline-date .timeline-date-bullet {
+	background-color: #555;
+	border-radius: 5px;
+	content: '';
+	display: inline-block;
+	position: relative;
+	height: 10px;
+	right: -5px;
+	width: 10px;
+}
+
+.timeline .timeline-card {
+	flex: 11;
+	margin-top: 10px;
+}
+
+.timeline .timeline-header {
+	background: #c4e1e2
+}
+
+.timeline .timeline-card .timeline-body {
+	display: flex;
+}
+
+.timeline .timeline-card .timeline-body .image-gallery-image img {
+	height: 150px;
+	width: 400px;
+}
+
+.timeline .timeline-card .timeline-body .image-gallery-left-nav,
+.timeline .timeline-card .timeline-body .image-gallery-right-nav {
+	font-size: 3em;
+}
+
+.timeline .timeline-card .timeline-body .timeline-content {
+	flex: 1;
+}
+
+.timeline-buttons {
+	border-top: solid 1px #ddd;
+	margin-top: 40px;
+	padding-top: 20px;
+	text-align: right;
+}
+
+.box {
+	display: inline-block;
+	margin-bottom: 30px
+}

@@ -1,0 +1,50 @@
+.host .host-content {
+	display: flex;
+}
+
+.host .host-content .host-map {
+	flex: 2;
+}
+
+.host .host-content .host-map-filter {
+	margin-top: 10px;
+}
+
+.host-map-tooltip h4 {
+	margin: 0px;
+	margin-bottom: 5px;
+}
+
+.host-map-tooltip-price {
+	color: #85bb65;
+	font-weight: bold;
+}
+
+.host .host-content .host-info {
+	border: solid 1px #ddd;
+	border-radius: 5px;
+	flex: 1;
+	margin-left: 10px;
+	padding: 10px;
+	position: relative;
+}
+
+.host .host-content .host-info .host-info-btn-select {
+	bottom: 5px;
+	position: absolute;
+	right: 5px;
+}
+
+.avatar-hoster {
+	background: #e4e4e4;
+	text-align: center;
+	line-height: 103px;
+	color: #888585;
+	height: 78px;
+	width: 75px;
+}
+
+.avatar-hoster img {
+	height: 78px;
+	width: 75px;
+}
